@@ -1,0 +1,18 @@
+01. Text Background fill
+
+HTML:
+------
+<h2>test</h2>
+
+CSS
+-------
+.section-title h2 {
+    font-size: 50px;
+    max-width: 600px;
+    background: linear-gradient(90deg,#1688A2 12.33%,#1875CA 33.75%,#D231B1 60.02%,#DD2A4B 89.93%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
